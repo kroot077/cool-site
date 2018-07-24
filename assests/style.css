@@ -12,9 +12,22 @@ header {
     padding: 20px 5px 5px 5px;
 }
 
+article {
+    
+}
+
+aside {
+    float: left;
+}
+
 footer {
     background-color:#1c4587;
     padding: 5%;
+}
+
+td {
+    background-color: #cee2f4;
+    height: 30px;
 }
 
 .heading {
@@ -28,6 +41,9 @@ footer {
 }
 
 .important {
+    border-top: solid 20px #cee2f4;
     text-align: center;
     font-weight: normal;
+    font-size: 30px;
+    padding-top: 15px;
 }
