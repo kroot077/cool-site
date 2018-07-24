@@ -13,12 +13,19 @@ header {
 }
 
 footer {
-    background-color:#1c4587;
-    padding: 5%;
+    position: absolute;
+    width: 100%;
+    right: 0;
+    left: 0;
+    bottom: 0;
 }
 
-td {
-    background-color: #cee2f4;
+#foot {
+    background-color:#1c4587;
+    height: 200px;
+}
+
+tr {
     height: 30px;
 }
 
@@ -36,22 +43,33 @@ td {
     border-top: solid 20px #cee2f4;
     text-align: center;
     font-weight: normal;
-    font-size: 30px;
+    font-size: 35px;
     padding-top: 15px;
-}   padding-top: 15px;
 }
 
 #main-container {
-    width: 50%;
+    width: 100%;
     margin: auto;
 }
 
 #p-container {
-    padding: 0 25px 0 25px;
+    padding: 0 30px 0 30px;
 }
 
 #side-container {
     width: 30%;
     float: right;
     margin: 30% 20% 20%;
+}
+
+.side-heading {
+    font-size: 20px;
+}
+
+.side-content {
+
+}
+
+.side-p {
+    font-size: 12px;
 }
