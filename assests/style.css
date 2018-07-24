@@ -1,3 +1,7 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -14,5 +18,12 @@ footer {
 .heading {
     text-align: center;
     color: white;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: initial;
 }
 
+.important {
+    text-align: center;
+    font-weight: normal;
+}
